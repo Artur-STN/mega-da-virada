@@ -1,0 +1,329 @@
+* {
+
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
+
+    outline: none;
+
+}
+
+body {
+
+    width: 100vw;
+    height: 100vh;
+
+}
+
+.divisoriaTitulo {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: #06d6a0;
+
+}
+
+.divisoriaTitulo .tagH1 {
+
+    color: #ffd166;
+
+    font-family: Rajdhani;
+    font-size: 4.5rem;
+
+    text-shadow: 2px 2px 1px black;
+
+}
+
+.divisoriaAllBotoes {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    flex-direction: column;
+
+    padding: 2rem 0;
+
+    background: #1a535c;
+
+}
+
+.divisoriaAllBotoes .divisoriaInput {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    flex-direction: column;
+
+}
+
+input::-webkit-inner-spin-button,
+input::-webkit-outer-spin-button {
+
+    display: none;
+    -webkit-appearance: transparet;
+    margin: 0;
+
+}
+
+input[type=number] {
+
+    -moz-appearance: textfield;
+
+}
+
+.divisoriaAllBotoes .divisoriaInput #input {
+
+    width: 100px;
+
+    font-size: 3rem;
+
+    text-align: center;
+
+}
+
+.divisoriaAllBotoes .divisoriaInput .tagP {
+
+    color: white;
+
+    font-family: Advent Pro;
+    font-weight: 700;
+    font-size: 2.5rem;
+
+    text-shadow: 2px 2px 1px black;
+
+    margin-top: 1rem;
+
+}
+
+.divisoriaAllBotoes .divisoriaBotoes {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    width: 450px;
+
+    margin-top: 1rem;
+
+}
+
+.divisoriaAllBotoes .divisoriaBotoes .btn {
+
+    background-color: rgba(6, 214, 158, 0.7);
+    color: #000000;
+
+    font-family: Advent Pro;
+    font-size: 1.9rem;
+
+    border: 1px solid #2b2d42;
+
+    width: 220px;
+
+    cursor: pointer;
+
+    transition: background-color 0.5s;
+
+}
+
+.divisoriaAllBotoes .divisoriaBotoes .btn:hover {
+
+    background-color: white;
+    color: #2b2d42;
+
+}
+
+.divisoriaAllCartelas {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    width: 600px;
+    
+    margin: auto;
+    padding-top: 1rem;
+
+}
+
+.divisoriaAllCartelas .divCartela {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    flex-direction: column;
+    
+    border: 1px solid;
+
+    height: 200px;
+
+}
+
+.divisoriaAllCartelas .divCartela #tagH1Cartela {
+
+    font-family: Advent Pro;
+    font-size: 2rem;
+
+    text-align: center;
+
+    border: 1px solid;
+
+    width: 100%;
+
+    padding: 1rem 0;
+
+}
+
+.divisoriaAllCartelas .divCartela .divisoriaAllNumbers {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+
+    border-top: 1px solid;
+
+}
+
+.divisoriaAllCartelas .divCartela .divisoriaAllNumbers .tagCartelaP {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-family: Rajdhani;
+    font-size: 2rem;
+
+    border: 1px solid;
+
+    width: 50px;
+    height: 50px;
+
+}
+
+footer {
+
+    background-color: #06d6a0;
+    
+    font-family: Rajdhani;
+
+    text-align: center;
+    
+    margin-top: 2rem;
+    
+    padding: 1rem 0;
+    
+    bottom: 0;
+
+}
+
+footer .social-media {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    background-color: #06d6a0;
+
+    font-size: 2rem;
+    
+    width: 400px;
+
+    margin: 0 auto 0 auto;
+
+}
+
+footer .social-media a {
+
+    text-decoration: none;
+
+}
+
+footer .social-media .fab {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    background: white;
+
+    width: 50px;
+    height: 50px;
+
+    border-radius: 10px;
+
+    transition: color 0.2s ease-in;
+
+}
+
+footer .social-media .fa-facebook {
+
+    color: #3b5998;
+
+    border: 1px solid #3b5998;
+
+}
+
+footer .social-media .fa-twitter {
+
+    color: #00acee;
+
+    border: 1px solid #00acee;
+
+}
+
+footer .social-media .fa-instagram {
+
+    color: #8134AF;
+
+    border: 1px solid #8134AF;
+
+}
+
+footer .social-media .fa-github {
+
+    color: black;
+
+    border: 1px solid black;
+
+}
+
+footer .social-media .fa-facebook:hover {
+
+    background: #3b5998;
+    color: white;
+
+    text-shadow: 2px 2px 5px black;
+
+}
+
+footer .social-media .fa-twitter:hover {
+
+    background: #00acee;
+    color: white;
+
+    text-shadow: 2px 2px 5px black;
+
+}
+
+footer .social-media .fa-instagram:hover {
+
+    background: linear-gradient(to bottom left, #515BD4, #8134AF, #DD2A7B, #FEDA77 90%, #F58529 100%);
+    color: white;
+
+    text-shadow: 2px 2px 5px black;
+
+}
+
+footer .social-media .fa-github:hover {
+
+    background: black;
+    color: white;
+
+    text-shadow: 0px 0px 5px white;
+
+}
