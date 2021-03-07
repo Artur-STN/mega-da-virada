@@ -52,9 +52,13 @@ function gerarCartelas() {
 
         alert('Número de cartelas invalidas, Digite novamente!')
 
+        limparCartelas()
+
     } else if (vezes >= 26) {
 
         alert('Limite atingido, Digite novamente!')
+
+        limparCartelas()
 
     } else {
 
