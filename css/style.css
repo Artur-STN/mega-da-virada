@@ -322,7 +322,7 @@ footer .social-media {
 
     background-color: #06d6a0;
 
-    font-size: 2rem;
+    font-size: 2.7rem;
 
     width: 400px;
 
@@ -471,6 +471,18 @@ footer .social-media .fa-github:hover {
         height: 100px;
     
         margin-top: 1rem;
+    
+    }
+
+    footer {
+        
+        font-size: 0.8rem;
+    
+    }
+
+    footer .social-media {
+    
+        width: 300px;
     
     }
 
