@@ -13,15 +13,15 @@ body,
 html {
 
     background: #1a535cc7;
-    
+
     width: 100vw;
     height: 100vh;
 
-    overflow:auto;
+    overflow: auto;
 
 }
 
-#recado{
+#recado {
 
     display: none;
 
@@ -29,7 +29,7 @@ html {
 
     font-family: 'Rajdhani';
     font-size: 2rem;
-    
+
     text-align: center;
 
 }
@@ -128,6 +128,80 @@ input[type=number] {
 
 }
 
+.divisoriaAllBotoes .divisoriaInput .divisoriaEscolhaNumeros .allNumeros {
+
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat (6, 1fr);
+
+    background: white;
+    
+    font-family: "Rajdhani";
+    font-size: 2rem;
+    
+    border: 1px solid white;
+    
+    list-style: none;
+
+    margin: 1rem 0;
+
+}
+
+.divisoriaAllBotoes .divisoriaInput .divisoriaEscolhaNumeros .allNumeros .numeros {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: #123a41;
+    color: white;
+    
+    border: 1px solid white;
+
+    width: 59px;
+    height: 50px;
+
+    cursor: pointer;
+
+    transition: background 0.5s;
+
+}
+
+.divisoriaAllBotoes .divisoriaInput .divisoriaEscolhaNumeros .allNumeros .numeros:hover {
+
+    background: white;
+    color: #1a535c;
+
+    border: 2px solid #123a41;
+
+}
+
+.divisoriaAllBotoes .divisoriaInput .divisoriaEscolhaNumeros #inputButton {
+
+    background: #06d6a0;
+    color: black;
+    
+    font-size: 2rem;
+
+    border: 1px solid;
+    
+    border-radius: 10px;
+    
+    padding: 1rem;
+
+    cursor: pointer;
+
+    transition: background 0.2s;
+
+}
+
+.divisoriaAllBotoes .divisoriaInput .divisoriaEscolhaNumeros #inputButton:hover {
+
+    background: black;
+    color: #06d6a0;
+
+}
+
 .divisoriaAllBotoes .divisoriaInput #input {
 
     width: 300px;
@@ -159,7 +233,7 @@ input[type=number] {
     align-items: center;
     justify-content: space-between;
 
-    width: 450px;
+    width: 550px;
 
     margin-top: 1rem;
 
@@ -177,7 +251,7 @@ input[type=number] {
 
     border-radius: 5px;
 
-    width: 220px;
+    width: 250px;
 
     cursor: pointer;
 
@@ -196,7 +270,7 @@ input[type=number] {
 
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    
+
     gap: 15px;
 
     width: 1000px;
@@ -229,7 +303,7 @@ input[type=number] {
     display: flex;
     align-items: center;
     justify-content: center;
-    
+
     font-family: Advent Pro;
     font-size: 2rem;
 
@@ -421,7 +495,7 @@ footer .social-media .fa-github:hover {
 
 }
 
-@media(max-width: 1080px){
+@media(max-width: 1080px) {
 
     html {
 
@@ -433,37 +507,37 @@ footer .social-media .fa-github:hover {
 
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
-        
+
         gap: 15px;
-    
-        width: 700px;
-    
+
+        width: 770px;
+
         margin: auto;
         padding-top: 1rem;
-    
+
     }
 
 }
 
-@media(max-width: 850px){
+@media(max-width: 850px) {
 
     .divisoriaAllCartelas {
 
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
-        
+
         gap: 15px;
-    
-        width: 700px;
-    
+
+        width: 570px;
+
         margin: auto;
         padding-top: 1rem;
-    
+
     }
 
 }
 
-@media(max-width: 720px){
+@media(max-width: 720px) {
 
     html {
 
@@ -481,14 +555,14 @@ footer .social-media .fa-github:hover {
 
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
-        
+
         gap: 5px;
-    
+
         width: 180px;
-    
+
         margin: auto;
         padding-top: 1rem;
-    
+
     }
 
     .divisoriaAllBotoes .divisoriaBotoes {
@@ -498,24 +572,23 @@ footer .social-media .fa-github:hover {
         justify-content: space-between;
 
         flex-direction: column;
-    
-        width: 350px;
+
         height: 100px;
-    
+
         margin-top: 1rem;
-    
+
     }
 
     footer {
-        
+
         font-size: 0.8rem;
-    
+
     }
 
     footer .social-media {
-    
+
         width: 300px;
-    
+
     }
 
 }
@@ -526,14 +599,14 @@ footer .social-media .fa-github:hover {
 
         display: grid;
         grid-template-columns: 1fr 1fr;
-        
+
         gap: 5px;
-    
+
         width: 400px;
-    
+
         margin: auto;
         padding-top: 1rem;
-    
+
     }
 
 }
@@ -544,14 +617,14 @@ footer .social-media .fa-github:hover {
 
         display: grid;
         grid-template-columns: 1fr;
-        
+
         gap: 5px;
-    
+
         width: 200px;
-    
+
         margin: auto;
         padding-top: 1rem;
-    
+
     }
 
 }

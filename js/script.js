@@ -20,7 +20,6 @@ function criarCartela() {
 
             }
 
-
             cartela.push(numero);
 
         }
